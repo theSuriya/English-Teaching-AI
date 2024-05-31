@@ -14,7 +14,7 @@ To use the application, follow these steps:
 2. Enter your Tamil or Tanglish query in the provided text area.
 3. Click on the "Analyze" button to generate the English translation.
 4. The application will display the translated English sentence along with an audio output option.
-5. 
+
 # Project Structure
 The project structure is as follows:
 
@@ -29,3 +29,22 @@ To set up the project locally, follow these steps:
 ```bash
 git clone https://github.com/Mr-Vicky-01/English-Teaching-AI.git
 ```
+2. **Install Dependencies**: Install the required dependencies by running `pip install -r requirements.txt`.
+
+3. **Google API KEY**:Go to this site to generate api key [HERE](https://aistudio.google.com) You can see left side generate api thn click and copy. Once you have the api key, locate the .env file in your project directory. Open it and paste your aoi key like this:
+  ```dotenv
+  GOOGLE_API_KEY = "paste the api key here"
+  ```
+4. **Run the Application**: Run the application locally using Streamlit by executing `streamlit run app.py`.
+
+5. **Access the Application**: Access the application in your web browser at `http://localhost:8501`.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- [Streamlit](https://streamlit.io/)
+- [Google Gemini API](https://developers.google.com/gemini)
+- [Hugging Face Spaces](https://huggingface.co/spaces)
