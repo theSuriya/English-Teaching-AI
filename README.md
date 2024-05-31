@@ -27,7 +27,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Mr-Vicky-01/English-Teaching-AI.git
+git clone https://github.com/theSuriya/English-Teaching-AI.git
 ```
 2. **Install Dependencies**: Install the required dependencies by running `pip install -r requirements.txt`.
 
